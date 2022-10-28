@@ -1,0 +1,16 @@
+button {
+	color: #FFF;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 5px;
+	background: rgb(255, 123, 0);
+	border: none;
+	cursor: pointer;
+	&:hover {
+		background: #FFF;
+		color: rgb(255, 123, 0);
+	}
+}

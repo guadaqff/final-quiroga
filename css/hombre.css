@@ -1,0 +1,130 @@
+button {
+  color: #FFF;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ff7b00;
+  border: none;
+  cursor: pointer; }
+  button:hover {
+    background: #FFF;
+    color: #ff7b00; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: futura-pt, sans-serif;
+  font-style: medium;
+  background-color: #e8e8e8; }
+
+/*VARIABLES*/
+h1 {
+  font-size: 50px; }
+
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: auto;
+  max-width: 90%;
+  padding: 3rem 0; }
+  .container figure {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer; }
+    .container figure img {
+      width: 100%;
+      height: 100%;
+      transition: all 500ms ease-out; }
+    .container figure .hombre_1 {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.08);
+      opacity: 0;
+      visibility: hidden;
+      text-align: center; }
+    .container figure:hover > .hombre_1 {
+      opacity: 1;
+      visibility: visible; }
+      .container figure:hover > .hombre_1 h3 {
+        margin-top: 130px;
+        margin-bottom: 15px; }
+    .container figure:hover > img {
+      transform: scale(1.1); }
+  .container .img1 {
+    grid-row: span 2;
+    grid-column: span 2; }
+  .container .img2 {
+    grid-row: span 2;
+    grid-column: span 2; }
+  .container .img3 {
+    grid-row: span 2;
+    grid-column: span 2; }
+  .container .img4 {
+    grid-row: span 2;
+    grid-column: span 2; }
+  .container .img5 {
+    grid-row: span 2;
+    grid-column: span 2; }
+  .container .img6 {
+    grid-row: span 2;
+    grid-column: span 2; }
+
+.hombre_titulo {
+  color: #525252;
+  padding-bottom: 10px;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold; }
+
+h3 {
+  color: #fff;
+  margin: 5px; }
+
+.logo {
+  height: 50px; }
+
+footer {
+  background: black;
+  height: 250px;
+  padding: 50PX;
+  justify-content: space-around;
+  display: flex; }
+
+.acerca_de_nike {
+  color: #fff;
+  list-style: none; }
+
+.acerca_de {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+
+.acerca_de_ul li {
+  list-style: none;
+  padding: 5px;
+  display: flex; }
+
+@media (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: auto;
+    max-width: 90%;
+    padding: 3rem 0; } }

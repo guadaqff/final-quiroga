@@ -1,0 +1,109 @@
+@import "button";
+@import "body";
+
+/*VARIABLES*/
+
+$gris: rgba(82, 82, 82, 1);
+$gris-claro-fondo:  rgb(228, 228, 228);
+$gris-claro-typo: rgba(244, 244, 244, 1);
+$blanco: #fff;
+
+
+
+section {
+	margin: 80px;
+}
+h2 {
+	font-size: 50px;
+}
+.contacto {
+	background: $gris-claro-fondo;
+	height: 50%;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	margin: auto;
+	border-radius: 10px;
+	.contacto_subtitulo {
+		padding-bottom: 5px;
+		padding-top: 10px;
+		color: $gris;
+	}
+	.contacto_box {
+		color: $gris-claro-typo;
+		border: none;
+		outline: none;
+	}
+	.contacto_button {
+		display: flex;
+		align-items: center;
+	}
+}
+.contacto_titulo {
+	color: $gris;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+	font-family: 'Passion One';
+	letter-spacing: 3px;
+}
+.contacto_box {
+	input {
+		background: $blanco;
+		border-radius: 3px;
+		border: none;
+		height: 25px;
+		color: $gris-claro-typo;
+		padding: 10px;
+	}
+	textarea {
+		background: $blanco;
+		border-radius: 3px;
+		border: none;
+		height: 25px;
+		color: $gris-claro-typo;
+		padding: 10px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+}
+.contacto_button {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.logo {
+	height: 50px;
+}
+footer {
+	background: black;
+	height: 250px;
+	padding: 50PX;
+	justify-content: space-around;
+	display: flex;
+}
+.acerca_de_nike {
+	color:$blanco;
+	list-style: none;
+}
+.acerca_de {
+	color: $blanco;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.acerca_de_ul {
+	li {
+		list-style: none;
+		padding: 5px;
+		display: flex;
+	}
+}
+@media (max-width: 600px) {
+	.contacto {
+		width: 400px;
+	}
+}

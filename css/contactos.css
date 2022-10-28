@@ -1,0 +1,113 @@
+button {
+  color: #FFF;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ff7b00;
+  border: none;
+  cursor: pointer; }
+  button:hover {
+    background: #FFF;
+    color: #ff7b00; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: futura-pt, sans-serif;
+  font-style: medium;
+  background-color: #e8e8e8; }
+
+/*VARIABLES*/
+section {
+  margin: 80px; }
+
+h2 {
+  font-size: 50px; }
+
+.contacto {
+  background: #e4e4e4;
+  height: 50%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: auto;
+  border-radius: 10px; }
+  .contacto .contacto_subtitulo {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    color: #525252; }
+  .contacto .contacto_box {
+    color: #f4f4f4;
+    border: none;
+    outline: none; }
+  .contacto .contacto_button {
+    display: flex;
+    align-items: center; }
+
+.contacto_titulo {
+  color: #525252;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: 'Passion One';
+  letter-spacing: 3px; }
+
+.contacto_box input {
+  background: #fff;
+  border-radius: 3px;
+  border: none;
+  height: 25px;
+  color: #f4f4f4;
+  padding: 10px; }
+
+.contacto_box textarea {
+  background: #fff;
+  border-radius: 3px;
+  border: none;
+  height: 25px;
+  color: #f4f4f4;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.contacto_button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px; }
+
+.logo {
+  height: 50px; }
+
+footer {
+  background: black;
+  height: 250px;
+  padding: 50PX;
+  justify-content: space-around;
+  display: flex; }
+
+.acerca_de_nike {
+  color: #fff;
+  list-style: none; }
+
+.acerca_de {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+
+.acerca_de_ul li {
+  list-style: none;
+  padding: 5px;
+  display: flex; }
+
+@media (max-width: 600px) {
+  .contacto {
+    width: 400px; } }

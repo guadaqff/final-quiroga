@@ -1,0 +1,191 @@
+button {
+  color: #FFF;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ff7b00;
+  border: none;
+  cursor: pointer; }
+  button:hover {
+    background: #FFF;
+    color: #ff7b00; }
+
+
+    .button {
+      color: #FFF;
+      text-decoration-style: none;
+      text-decoration-line: none;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 5px;
+      background: #ff7b00;
+      border: none;
+      cursor: pointer; }
+      .button:hover {
+        background: #FFF;
+        color: #ff7b00; }
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: futura-pt, sans-serif;
+  font-style: medium;
+  background-color: #e8e8e8; }
+
+/*VARIABLES*/
+.women {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  margin: auto;
+  max-width: 90%;
+  padding: 3rem 0; }
+
+.img {
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.item-1 {
+  grid-row: 1/4;
+  background-image: url(../img/item-1.png);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 15px;
+  font-family: futura-pt, sans-serif;
+  font-style: bold;
+  padding-bottom: 30px;
+  padding-left: 30px; }
+  .item-1:hover {
+    transition: o 0.5s ease-in; }
+  .item-1 h2 {
+    color: #fff;
+    font-size: 50px; }
+
+.item-2 {
+  grid-row: 1/4;
+  background-image: url(../img/mujer\ gorra.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 15px;
+  padding-bottom: 30px;
+  padding-left: 30px; }
+  .item-2 h2 {
+    color: #fff;
+    font-size: 50px; }
+
+.item-3 {
+  grid-row: 1/4;
+  background-image: url(../img/item-3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 15px;
+  padding-bottom: 30px;
+  padding-left: 30px; }
+  .item-3 h2 {
+    color: #fff;
+    font-size: 50px; }
+
+.item-4 {
+  grid-row: 1/2;
+  grid-row: 2/5; }
+
+.heading {
+  font-family: 'Shadows Into Light';
+  font-size: 100px;
+  margin: 6rem; }
+
+.header {
+  margin: 0 auto;
+  padding: 3rem 0;
+  width: 65%; }
+
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(12, 150px);
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 3 rem 0;
+  margin-bottom: 6rem; }
+
+.item-5 {
+  grid-row: 2/6; }
+
+.item-6 {
+  grid-row: 2/4; }
+
+.item-7 {
+  grid-row: 5/6; }
+
+.item-8 {
+  grid-row: 4/6; }
+
+.item-9 {
+  grid-row: 6/11; }
+
+.item-10 {
+  grid-row: 6/7; }
+
+.item-11 {
+  grid-row: 6/9; }
+
+.item-12 {
+  grid-row: 7/12; }
+
+.item-13 {
+  grid-row: 9/13; }
+
+.item-14 {
+  grid-row: 11/13; }
+
+.logo {
+  height: 50px; }
+
+footer {
+  background: black;
+  height: 250px;
+  padding: 50PX;
+  justify-content: space-around;
+  display: flex; }
+
+.acerca_de_nike {
+  color: #fff;
+  list-style: none; }
+
+.acerca_de {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+
+.acerca_de_ul li {
+  list-style: none;
+  padding: 5px;
+  display: flex; }
+
+
+  
